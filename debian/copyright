@@ -1,0 +1,63 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: kcontacts
+Source: http://download.kde.org/pub/kde/unstable/applications/
+
+Files: *
+Copyright: 2007 KDE-PIM team <kde-pim@kde.org>
+           2002-2010 Tobias Koenig <tokoe@kde.org>
+           2008 Kevin Krammer <kevin.krammer@gmx.at>
+           2001-2002 Cornelius Schumacher <schumacher@kde.org>
+           2014-2015 Laurent Montel <montel@kde.org>
+           2002 Jost Schenck <jost@schenck.de>
+           2006 Sean Harmer <sh@theharmers.co.uk>
+           2005 Ingo Kloecker <kloecker@kde.org>
+           2010 Klarälvdalens Datakonsult AB, a KDAB Group company, info@kdab.net
+License: LGPL-2+
+
+Files: src/addresseehelper.h
+       src/converter/ldifconverter.h
+       src/addresseehelper.cpp
+Copyright: 2003 Carsten Pfeiffer <pfeiffer@kde.org>
+           2003 Helge Deller <deller@kde.org>
+License: LGPL-2
+
+Files: debian/*
+Copyright: 2015 Harald Sitter <sitter@kde.org>
+License: LGPL-2+
+
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
+License: LGPL-2
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License version 2 as published by the Free Software Foundation.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+  Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General Public
+ License version 2 can be found in `/usr/share/common-licenses/LGPL-2'.
