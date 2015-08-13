@@ -1,5 +1,9 @@
-kcontacts (0.0) UNRELEASED; urgency=medium
+kcontacts (4:15.07.90-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Harald Sitter ]
   * Initial release.
 
- -- Harald Sitter <sitter@kde.org>  Wed, 15 Jul 2015 10:42:46 +0200
+  [ Jonathan Riddell ]
+  * new upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 13 Aug 2015 10:53:05 +0100
