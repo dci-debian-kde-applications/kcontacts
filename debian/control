@@ -19,7 +19,9 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/kcontacts.git
 Package: libkf5contacts-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5contacts5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5contacts5 (= ${binary:Version}),
+         libkf5coreaddons-dev,
+         ${misc:Depends}
 Description: development files for kcontacts
  KContacts is an API for address book data.
  .
