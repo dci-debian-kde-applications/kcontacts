@@ -19,7 +19,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/kcontacts.git
 Package: libkf5contacts-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5contacts5 (= ${binary:Version}),
+Depends: libkf5contacts5 (= ${source:Version}),
          libkf5coreaddons-dev,
          ${misc:Depends}
 Description: development files for kcontacts
@@ -39,7 +39,7 @@ Description: data files for kcontacts
 Package: libkf5contacts5
 Architecture: any
 Multi-Arch: same
-Depends: libkf5contacts-data (= ${binary:Version}),
+Depends: libkf5contacts-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: address book API for KDE frameworks
