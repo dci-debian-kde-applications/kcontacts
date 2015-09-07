@@ -1,0 +1,57 @@
+Source: kcontacts
+Section: libs
+Priority: optional
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Build-Depends: cmake (>= 2.8.12~),
+               debhelper (>= 9),
+               extra-cmake-modules (>= 5.12.0~),
+               libkf5codecs-dev (>= 5.12.0~),
+               libkf5config-dev (>= 5.12.0~),
+               libkf5coreaddons-dev (>= 5.12.0~),
+               libkf5i18n-dev (>= 5.12.0~),
+               pkg-kde-tools (>> 0.15.15)
+Standards-Version: 3.9.6
+XS-Testsuite: autopkgtest
+Homepage: https://projects.kde.org/projects/kde/pim/kcontacts
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/kcontacts.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/kcontacts.git
+
+Package: libkf5contacts-dev
+Section: libdevel
+Architecture: any
+Depends: libkf5contacts5 (= ${binary:Version}),
+         libkf5coreaddons-dev,
+         ${misc:Depends}
+Description: development files for kcontacts
+ KContacts is an API for address book data.
+ .
+ This package contains the development files.
+
+Package: libkf5contacts-data
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: data files for kcontacts
+ KContacts is an API for address book data.
+ .
+ This package contains shared data files.
+
+Package: libkf5contacts5
+Architecture: any
+Multi-Arch: same
+Depends: libkf5contacts-data (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: address book API for KDE frameworks
+ KContacts is an API for address book data.
+
+Package: libkf5contacts-dbg
+Section: debug
+Priority: extra
+Architecture: any
+Multi-Arch: same
+Depends: libkf5contacts5 (= ${binary:Version}), ${misc:Depends}
+Description: debug symbols for kcontacts
+ KContacts is an API for address book data.
+ .
+ This package contains the debug symbols.
