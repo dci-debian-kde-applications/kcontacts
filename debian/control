@@ -9,7 +9,8 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5config-dev (>= 5.12.0~),
                libkf5coreaddons-dev (>= 5.12.0~),
                libkf5i18n-dev (>= 5.12.0~),
-               pkg-kde-tools (>> 0.15.15)
+               pkg-kde-tools (>> 0.15.15),
+               qtbase5-dev (>= 5.4~)
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/kde/pim/kcontacts
@@ -20,7 +21,7 @@ Package: libkf5contacts-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5contacts5 (= ${binary:Version}),
-         libkf5coreaddons-dev,
+         libkf5coreaddons-dev (>= 5.12.0~),
          ${misc:Depends}
 Description: development files for kcontacts
  KContacts is an API for address book data.
