@@ -39,7 +39,7 @@ Description: data files for kcontacts
 Package: libkf5contacts5
 Architecture: any
 Multi-Arch: same
-Depends: libkf5contacts-data (= ${binary:Version}),
+Depends: libkf5contacts-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: address book API for KDE frameworks
