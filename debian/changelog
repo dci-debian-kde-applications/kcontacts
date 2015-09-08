@@ -1,9 +1,9 @@
-kcontacts (15.08.0-1~) UNRELEASED; urgency=medium
+kcontacts (15.08.0-1) experimental; urgency=medium
 
   * Initial Debian release.
   * Update symbols files.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 07 Sep 2015 20:01:11 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 08 Sep 2015 14:56:19 +0200
 
 kcontacts (4:15.08.0-0ubuntu1) wily; urgency=medium
 
