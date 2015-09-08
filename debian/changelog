@@ -1,4 +1,4 @@
-kcontacts (4:15.08.0-1~) UNRELEASED; urgency=medium
+kcontacts (15.08.0-1~) UNRELEASED; urgency=medium
 
   * Initial Debian release.
   * Update symbols files.
