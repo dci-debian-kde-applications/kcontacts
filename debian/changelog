@@ -1,6 +1,7 @@
 kcontacts (4:15.08.0-1~) UNRELEASED; urgency=medium
 
   * Initial Debian release.
+  * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 07 Sep 2015 20:01:11 +0200
 
