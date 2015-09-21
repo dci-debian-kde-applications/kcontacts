@@ -1,8 +1,9 @@
-# SymbolsHelper-Confirmed: 15.07.90 amd64
+# SymbolsHelper-Confirmed: 4:15.08.1 amd64 i386
 libKF5Contacts.so.5 libkf5contacts5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 15.07.90
  _ZN9KContacts11CalendarUrl13setParametersERK4QMapI7QString11QStringListE@Base 15.07.90
  _ZN9KContacts11CalendarUrl6setUrlERK4QUrl@Base 15.07.90
+ _ZN9KContacts11CalendarUrl7Private12typeToStringENS0_12CalendarTypeE@Base 4:15.08.1
  _ZN9KContacts11CalendarUrl7setTypeENS0_12CalendarTypeE@Base 15.07.90
  _ZN9KContacts11CalendarUrlC1ENS0_12CalendarTypeE@Base 15.07.90
  _ZN9KContacts11CalendarUrlC1ERKS0_@Base 15.07.90
@@ -262,6 +263,9 @@ libKF5Contacts.so.5 libkf5contacts5 #MINVER#
  _ZN9KContacts5Field5labelEv@Base 15.07.90
  _ZN9KContacts5Field5valueERKNS_9AddresseeE@Base 15.07.90
  _ZN9KContacts5Field6equalsEPS0_@Base 15.07.90
+ _ZN9KContacts5Field7Private10mAllFieldsE@Base 4:15.08.1
+ _ZN9KContacts5Field7Private13mCustomFieldsE@Base 4:15.08.1
+ _ZN9KContacts5Field7Private14mDefaultFieldsE@Base 4:15.08.1
  _ZN9KContacts5Field7sortKeyERKNS_9AddresseeE@Base 15.07.90
  _ZN9KContacts5Field8categoryEv@Base 15.07.90
  _ZN9KContacts5Field8isCustomEv@Base 15.07.90
@@ -472,6 +476,7 @@ libKF5Contacts.so.5 libkf5contacts5 #MINVER#
  _ZN9KContacts9Addressee6setUidERK7QString@Base 15.07.90
  _ZN9KContacts9Addressee6setUrlERK4QUrl@Base 15.07.90
  _ZN9KContacts9Addressee6setUrlERKNS_18ResourceLocatorUrlE@Base 15.07.90
+ _ZN9KContacts9Addressee7Private9mSortModeE@Base 4:15.08.1
  _ZN9KContacts9Addressee7setKeysERK7QVectorINS_3KeyEE@Base 15.07.90
  _ZN9KContacts9Addressee7setKindERK7QString@Base 15.07.90
  _ZN9KContacts9Addressee7setLogoERKNS_7PictureE@Base 15.07.90
