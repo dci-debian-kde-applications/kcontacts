@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.1+git20151006.1000 amd64 i386
+# SymbolsHelper-Confirmed: 4:15.08.1+git20151008.0033+15.10 amd64 i386
 libKF5Contacts.so.5 libkf5contacts5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 15.07.90
  _ZN9KContacts11CalendarUrl13setParametersERK4QMapI7QString11QStringListE@Base 15.07.90
@@ -177,6 +177,7 @@ libKF5Contacts.so.5 libkf5contacts5 #MINVER#
  _ZN9KContacts16ContactGroupTool14convertFromXmlEP9QIODeviceR7QVectorINS_12ContactGroupEEP7QString@Base 15.07.90
  _ZN9KContacts16ContactGroupTool14convertFromXmlEP9QIODeviceRNS_12ContactGroupEP7QString@Base 15.07.90
  _ZN9KContacts17VCardStringToDateERK7QString@Base 15.07.90
+ _ZN9KContacts17adaptIMAttributesER10QByteArray@Base 4:15.08.1+git20151008.0033+15.10
  _ZN9KContacts17dateToVCardStringERK5QDate@Base 15.07.90
  _ZN9KContacts17dateToVCardStringERK9QDateTime@Base 15.07.90
  _ZN9KContacts18ResourceLocatorUrl13setParametersERK4QMapI7QString11QStringListE@Base 15.07.90
