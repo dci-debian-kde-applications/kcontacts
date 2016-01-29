@@ -1,3 +1,10 @@
+kcontacts (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+  * Debian merge: No remaining changes. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 29 Jan 2016 14:00:52 -0800
+
 kcontacts (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
@@ -18,6 +25,19 @@ kcontacts (4:15.08.1-0ubuntu1) wily; urgency=medium
   * Adding missing symbols
 
  -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 16:20:41 +0100
+
+kcontacts (15.12.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (15.12.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Dec 2015 16:13:35 +0100
+
+kcontacts (15.08.0-1) experimental; urgency=medium
+
+  * Initial Debian release.
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 08 Sep 2015 14:56:19 +0200
 
 kcontacts (4:15.08.0-0ubuntu1) wily; urgency=medium
 

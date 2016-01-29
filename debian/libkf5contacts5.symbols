@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.12.0 amd64 i386
+# SymbolsHelper-Confirmed: 15.12.0 amd64
 libKF5Contacts.so.5 libkf5contacts5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 15.07.90
  _ZN9KContacts11CalendarUrl13setParametersERK4QMapI7QString11QStringListE@Base 15.07.90
@@ -177,8 +177,8 @@ libKF5Contacts.so.5 libkf5contacts5 #MINVER#
  _ZN9KContacts16ContactGroupTool14convertFromXmlEP9QIODeviceR7QVectorINS_12ContactGroupEEP7QString@Base 15.07.90
  _ZN9KContacts16ContactGroupTool14convertFromXmlEP9QIODeviceRNS_12ContactGroupEP7QString@Base 15.07.90
  _ZN9KContacts17VCardStringToDateERK7QString@Base 15.07.90
- _ZN9KContacts17adaptIMAttributesER10QByteArray@Base 4:15.08.1+git20151008.0033+15.10
- _ZN9KContacts17dateToVCardStringE5QDate@Base 4:15.12.0
+ _ZN9KContacts17adaptIMAttributesER10QByteArray@Base 15.12.0
+ _ZN9KContacts17dateToVCardStringE5QDate@Base 15.12.0
  _ZN9KContacts17dateToVCardStringERK9QDateTime@Base 15.07.90
  _ZN9KContacts18ResourceLocatorUrl13setParametersERK4QMapI7QString11QStringListE@Base 15.07.90
  _ZN9KContacts18ResourceLocatorUrl6setUrlERK4QUrl@Base 15.07.90
@@ -765,7 +765,7 @@ libKF5Contacts.so.5 libkf5contacts5 #MINVER#
  _ZNK9KContacts9VCardTool10parseSoundERKNS_9VCardLineE@Base 15.07.90
  _ZNK9KContacts9VCardTool11createSoundERKNS_5SoundENS_5VCard7VersionE@Base 15.07.90
  _ZNK9KContacts9VCardTool11parseVCardsERK10QByteArray@Base 15.07.90
- _ZNK9KContacts9VCardTool11splitStringE5QCharRK7QString@Base 4:15.12.0
+ _ZNK9KContacts9VCardTool11splitStringE5QCharRK7QString@Base 15.12.0
  _ZNK9KContacts9VCardTool12addParameterERNS_9VCardLineENS_5VCard7VersionERK7QStringRK11QStringList@Base 15.07.90
  _ZNK9KContacts9VCardTool12createVCardsERKNS_13AddresseeListENS_5VCard7VersionE@Base 15.07.90
  _ZNK9KContacts9VCardTool12createVCardsERKNS_13AddresseeListENS_5VCard7VersionEb@Base 15.07.90
