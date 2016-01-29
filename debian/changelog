@@ -2,6 +2,7 @@ kcontacts (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Debian merge: No remaining changes. 
+  * Bump .so version master (unstable). 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 29 Jan 2016 14:00:52 -0800
 
