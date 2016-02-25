@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 15.12.0 amd64
+# SymbolsHelper-Confirmed: 4:15.12.1+git20160225.1929+16.04 amd64 i386
 libKF5Contacts.so.5 libkf5contacts5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 15.07.90
  _ZN9KContacts11CalendarUrl13setParametersERK4QMapI7QString11QStringListE@Base 15.07.90
@@ -433,6 +433,7 @@ libKF5Contacts.so.5 libkf5contacts5 #MINVER#
  _ZN9KContacts9Addressee15insertSourceUrlERK4QUrl@Base 15.07.90
  _ZN9KContacts9Addressee15setExtraUrlListERK7QVectorINS_18ResourceLocatorUrlEE@Base 15.07.90
  _ZN9KContacts9Addressee15setOrganizationERK7QString@Base 15.07.90
+ _ZN9KContacts9Addressee15setPhoneNumbersERK7QVectorINS_11PhoneNumberEE@Base 4:15.12.1+git20160225.1929+16.04
  _ZN9KContacts9Addressee15sortStringLabelEv@Base 15.07.90
  _ZN9KContacts9Addressee16businessFaxLabelEv@Base 15.07.90
  _ZN9KContacts9Addressee16insertExtraPhotoERKNS_7PictureE@Base 15.07.90
