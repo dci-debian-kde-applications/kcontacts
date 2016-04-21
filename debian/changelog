@@ -1,10 +1,12 @@
-kcontacts (15.12.1-2~1.gbpfdb7be) UNRELEASED; urgency=medium
+kcontacts (16.04.0-1~1.gbpb1becd) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @fdb7be72cfba65625bea8a313588b4de05afde78 **
+  ** SNAPSHOT build @b1becd0511925edcce25a46cfdcf05b0941b34a9 **
 
   * Bump Standards-Version to 3.9.8
+  * Add a .gitattributes file to use dpkg-mergechangelogs
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:45:02 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 04:44:13 +0200
 
 kcontacts (15.12.1-1) experimental; urgency=medium
 
