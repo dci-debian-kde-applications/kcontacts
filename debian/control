@@ -5,11 +5,11 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.14.0~),
-               libkf5codecs-dev (>= 5.14.0~),
-               libkf5config-dev (>= 5.14.0~),
-               libkf5coreaddons-dev (>= 5.14.0~),
-               libkf5i18n-dev (>= 5.14.0~),
+               extra-cmake-modules (>= 5.19.0~),
+               libkf5codecs-dev (>= 5.19.0~),
+               libkf5config-dev (>= 5.19.0~),
+               libkf5coreaddons-dev (>= 5.19.0~),
+               libkf5i18n-dev (>= 5.19.0~),
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.4~)
 Standards-Version: 3.9.8
@@ -21,7 +21,7 @@ Package: libkf5contacts-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5contacts5 (= ${binary:Version}),
-         libkf5coreaddons-dev (>= 5.14.0~),
+         libkf5coreaddons-dev (>= 5.19.0~),
          ${misc:Depends}
 Description: development files for kcontacts
  KContacts is an API for address book data.
