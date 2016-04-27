@@ -1,6 +1,6 @@
-kcontacts (16.04.0-1~2.gbpa3e37a) UNRELEASED; urgency=medium
+kcontacts (16.04.0-1~3.gbpb6bf26) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @a3e37ae0a2efb507dbf5ca0c33320a04d78d6376 **
+  ** SNAPSHOT build @b6bf26868d05dee4078074f872a3ab88c2fc6af0 **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @b1becd0511925edcce25a46cfdcf05b0941b34a9 **
@@ -8,6 +8,7 @@ kcontacts (16.04.0-1~2.gbpa3e37a) UNRELEASED; urgency=medium
   * Bump Standards-Version to 3.9.8
   * Add a .gitattributes file to use dpkg-mergechangelogs
   * Update build-deps and deps with the info from cmake
+  * Update symbols files.
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -15,7 +16,7 @@ kcontacts (16.04.0-1~2.gbpa3e37a) UNRELEASED; urgency=medium
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Update install files
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 25 Apr 2016 18:09:46 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 27 Apr 2016 08:46:43 +0200
 
 kcontacts (15.12.1-1) experimental; urgency=medium
 
