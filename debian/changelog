@@ -1,3 +1,11 @@
+kcontacts (16.04.1-1~1.gbpffdf6a) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @ffdf6aa635cc2162cb397b5f80c8c8ea7e4681f4 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 10 May 2016 22:44:31 +0200
+
 kcontacts (16.04.0-1) experimental; urgency=medium
 
   [ Automatic packaging ]
