@@ -1,10 +1,16 @@
-kcontacts (16.04.1-1~1.gbpffdf6a) UNRELEASED; urgency=medium
+kcontacts (16.04.1-1~2.gbp763f24) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @763f2482e638636b213938deb5a1dc09fe092531 **
+
+  [ Maximiliano Curia ]
   ** SNAPSHOT build @ffdf6aa635cc2162cb397b5f80c8c8ea7e4681f4 **
 
   * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 10 May 2016 22:44:31 +0200
+  [ Automatic packaging ]
+  * Update symbols files
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 11 May 2016 10:35:41 +0200
 
 kcontacts (16.04.0-1) experimental; urgency=medium
 
