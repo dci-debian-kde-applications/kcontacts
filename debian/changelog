@@ -1,6 +1,6 @@
-kcontacts (16.08.0-1~1.gbpff173c) UNRELEASED; urgency=medium
+kcontacts (16.08.1-1~1.gbpef9a1b) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @ff173c3b6fa9be93fdb96055f41823b14c302985 **
+  ** SNAPSHOT build @ef9a1b8f97cff38a6b6339b5ae18de62d4619713 **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @073a1b10ca7aa5e3f2b264c88cd55d46ea7ef046 **
@@ -9,8 +9,9 @@ kcontacts (16.08.0-1~1.gbpff173c) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
+  * Update symbols files.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 22:44:13 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 08 Sep 2016 22:44:35 +0200
 
 kcontacts (16.04.2-1) unstable; urgency=medium
 
