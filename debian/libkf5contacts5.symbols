@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 16.08.0 amd64 armhf i386
+# SymbolsHelper-Confirmed: 4:17.08.0 amd64
 libKF5Contacts.so.5 libkf5contacts5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 15.07.90
  _ZN9KContacts10FieldGroup13setParametersERK4QMapI7QString11QStringListE@Base 16.08.0
@@ -41,6 +41,17 @@ libKF5Contacts.so.5 libkf5contacts5 #MINVER#
  _ZN9KContacts11PhoneNumberD1Ev@Base 15.07.90
  _ZN9KContacts11PhoneNumberD2Ev@Base 15.07.90
  _ZN9KContacts11PhoneNumberaSERKS0_@Base 15.07.90
+ _ZN9KContacts12ClientPidMap13setParametersERK4QMapI7QString11QStringListE@Base 4:17.08.0
+ _ZN9KContacts12ClientPidMap15setClientPidMapERK7QString@Base 4:17.08.0
+ _ZN9KContacts12ClientPidMapC1ERK7QString@Base 4:17.08.0
+ _ZN9KContacts12ClientPidMapC1ERKS0_@Base 4:17.08.0
+ _ZN9KContacts12ClientPidMapC1Ev@Base 4:17.08.0
+ _ZN9KContacts12ClientPidMapC2ERK7QString@Base 4:17.08.0
+ _ZN9KContacts12ClientPidMapC2ERKS0_@Base 4:17.08.0
+ _ZN9KContacts12ClientPidMapC2Ev@Base 4:17.08.0
+ _ZN9KContacts12ClientPidMapD1Ev@Base 4:17.08.0
+ _ZN9KContacts12ClientPidMapD2Ev@Base 4:17.08.0
+ _ZN9KContacts12ClientPidMapaSERKS0_@Base 4:17.08.0
  _ZN9KContacts12ContactGroup16ContactReference12insertCustomERK7QStringS4_@Base 15.07.90
  _ZN9KContacts12ContactGroup16ContactReference12removeCustomERK7QString@Base 15.07.90
  _ZN9KContacts12ContactGroup16ContactReference17setPreferredEmailERK7QString@Base 15.07.90
@@ -465,7 +476,8 @@ libKF5Contacts.so.5 libkf5contacts5 #MINVER#
  _ZN9KContacts9Addressee11mailerLabelEv@Base 15.07.90
  _ZN9KContacts9Addressee11prefixLabelEv@Base 15.07.90
  _ZN9KContacts9Addressee11removeEmailERK7QString@Base 15.07.90
- _ZN9KContacts9Addressee11setBirthdayERK9QDateTime@Base 15.07.90
+ _ZN9KContacts9Addressee11setBirthdayERK5QDate@Base 4:17.08.0
+ _ZN9KContacts9Addressee11setBirthdayERK9QDateTimeb@Base 4:17.08.0
  _ZN9KContacts9Addressee11setImppListERK7QVectorINS_4ImppEE@Base 15.07.90
  _ZN9KContacts9Addressee11setNickNameERK7QString@Base 15.07.90
  _ZN9KContacts9Addressee11setNickNameERKNS_8NickNameE@Base 16.08.0
@@ -532,9 +544,11 @@ libKF5Contacts.so.5 libkf5contacts5 #MINVER#
  _ZN9KContacts9Addressee17setSourcesUrlListERK7QVectorI4QUrlE@Base 15.07.90
  _ZN9KContacts9Addressee18businessPhoneLabelEv@Base 15.07.90
  _ZN9KContacts9Addressee18formattedNameLabelEv@Base 15.07.90
+ _ZN9KContacts9Addressee18insertClientPidMapERKNS_12ClientPidMapE@Base 4:17.08.0
  _ZN9KContacts9Addressee18insertRelationShipERKNS_7RelatedE@Base 15.07.90
  _ZN9KContacts9Addressee19additionalNameLabelEv@Base 15.07.90
  _ZN9KContacts9Addressee19insertExtraNickNameERKNS_8NickNameE@Base 16.08.0
+ _ZN9KContacts9Addressee19setClientPidMapListERK7QVectorINS_12ClientPidMapEE@Base 4:17.08.0
  _ZN9KContacts9Addressee20setExtraNickNameListERK7QVectorINS_8NickNameEE@Base 16.08.0
  _ZN9KContacts9Addressee21homeAddressLabelLabelEv@Base 15.07.90
  _ZN9KContacts9Addressee22homeAddressRegionLabelEv@Base 15.07.90
@@ -611,6 +625,10 @@ libKF5Contacts.so.5 libkf5contacts5 #MINVER#
  _ZN9KContacts9VCardLineD1Ev@Base 16.08.0
  _ZN9KContacts9VCardLineD2Ev@Base 16.08.0
  _ZN9KContacts9VCardLineaSERKS0_@Base 16.08.0
+ _ZN9KContacts9VCardTool10createDateERK5QDateNS_5VCard7VersionE@Base 4:17.08.0
+ _ZN9KContacts9VCardTool10createTimeERK5QTimeNS_5VCard7VersionE@Base 4:17.08.0
+ _ZN9KContacts9VCardTool13parseDateTimeERK7QStringPb@Base 4:17.08.0
+ _ZN9KContacts9VCardTool14createDateTimeERK9QDateTimeNS_5VCard7VersionEb@Base 4:17.08.0
  _ZN9KContacts9VCardToolC1Ev@Base 15.07.90
  _ZN9KContacts9VCardToolC2Ev@Base 15.07.90
  _ZN9KContacts9VCardToolD1Ev@Base 15.07.90
@@ -618,6 +636,7 @@ libKF5Contacts.so.5 libkf5contacts5 #MINVER#
  _ZN9KContactslsER11QDataStreamRKNS_10FieldGroupE@Base 16.08.0
  _ZN9KContactslsER11QDataStreamRKNS_11CalendarUrlE@Base 15.07.90
  _ZN9KContactslsER11QDataStreamRKNS_11PhoneNumberE@Base 15.07.90
+ _ZN9KContactslsER11QDataStreamRKNS_12ClientPidMapE@Base 4:17.08.0
  _ZN9KContactslsER11QDataStreamRKNS_18ResourceLocatorUrlE@Base 15.07.90
  _ZN9KContactslsER11QDataStreamRKNS_3GeoE@Base 15.07.90
  _ZN9KContactslsER11QDataStreamRKNS_3KeyE@Base 15.07.90
@@ -640,6 +659,7 @@ libKF5Contacts.so.5 libkf5contacts5 #MINVER#
  _ZN9KContactsrsER11QDataStreamRNS_10FieldGroupE@Base 16.08.0
  _ZN9KContactsrsER11QDataStreamRNS_11CalendarUrlE@Base 15.07.90
  _ZN9KContactsrsER11QDataStreamRNS_11PhoneNumberE@Base 15.07.90
+ _ZN9KContactsrsER11QDataStreamRNS_12ClientPidMapE@Base 4:17.08.0
  _ZN9KContactsrsER11QDataStreamRNS_18ResourceLocatorUrlE@Base 15.07.90
  _ZN9KContactsrsER11QDataStreamRNS_3GeoE@Base 15.07.90
  _ZN9KContactsrsER11QDataStreamRNS_3KeyE@Base 15.07.90
@@ -683,6 +703,12 @@ libKF5Contacts.so.5 libkf5contacts5 #MINVER#
  _ZNK9KContacts11PhoneNumber9typeLabelEv@Base 15.07.90
  _ZNK9KContacts11PhoneNumbereqERKS0_@Base 15.07.90
  _ZNK9KContacts11PhoneNumberneERKS0_@Base 15.07.90
+ _ZNK9KContacts12ClientPidMap10parametersEv@Base 4:17.08.0
+ _ZNK9KContacts12ClientPidMap12clientPidMapEv@Base 4:17.08.0
+ _ZNK9KContacts12ClientPidMap7isValidEv@Base 4:17.08.0
+ _ZNK9KContacts12ClientPidMap8toStringEv@Base 4:17.08.0
+ _ZNK9KContacts12ClientPidMapeqERKS0_@Base 4:17.08.0
+ _ZNK9KContacts12ClientPidMapneERKS0_@Base 4:17.08.0
  _ZNK9KContacts12ContactGroup16ContactReference14preferredEmailEv@Base 15.07.90
  _ZNK9KContacts12ContactGroup16ContactReference3gidEv@Base 15.07.90
  _ZNK9KContacts12ContactGroup16ContactReference3uidEv@Base 15.07.90
@@ -870,8 +896,10 @@ libKF5Contacts.so.5 libkf5contacts5 #MINVER#
  _ZNK9KContacts9Addressee14fieldGroupListEv@Base 16.08.0
  _ZNK9KContacts9Addressee14preferredEmailEv@Base 15.07.90
  _ZNK9KContacts9Addressee14sourcesUrlListEv@Base 15.07.90
+ _ZNK9KContacts9Addressee15birthdayHasTimeEv@Base 4:17.08.0
  _ZNK9KContacts9Addressee15calendarUrlListEv@Base 15.07.90
  _ZNK9KContacts9Addressee15findPhoneNumberERK7QString@Base 15.07.90
+ _ZNK9KContacts9Addressee16clientPidMapListEv@Base 4:17.08.0
  _ZNK9KContacts9Addressee17extraNickNameListEv@Base 16.08.0
  _ZNK9KContacts9Addressee21extraOrganizationListEv@Base 16.08.0
  _ZNK9KContacts9Addressee3geoEv@Base 15.07.90
@@ -941,8 +969,6 @@ libKF5Contacts.so.5 libkf5contacts5 #MINVER#
  _ZNK9KContacts9VCardTool13addParametersERNS_9VCardLineERK4QMapI7QString11QStringListE@Base 16.08.0
  _ZNK9KContacts9VCardTool13createPictureERK7QStringRKNS_7PictureENS_5VCard7VersionE@Base 15.07.90
  _ZNK9KContacts9VCardTool13createSecrecyERKNS_7SecrecyE@Base 15.07.90
- _ZNK9KContacts9VCardTool13parseDateTimeERK7QString@Base 15.07.90
- _ZNK9KContacts9VCardTool14createDateTimeERK9QDateTimeNS_5VCard7VersionE@Base 16.04.1
  _ZNK9KContacts9VCardTool8parseKeyERKNS_9VCardLineE@Base 15.07.90
  _ZNK9KContacts9VCardTool9createKeyERKNS_3KeyENS_5VCard7VersionE@Base 15.07.90
  _ZTIN9KContacts12NameSortModeE@Base 15.07.90
