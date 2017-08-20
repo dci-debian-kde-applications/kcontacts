@@ -21,8 +21,12 @@ Package: libkf5contacts-data
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: ${kde-l10n:all}
-Replaces: ${kde-l10n:all}
+Breaks: kde-l10n-ast (<< 4:17.03.90-0~),
+        kde-l10n-eo (<< 4:17.03.90-0~),
+        ${kde-l10n:all},
+Replaces: kde-l10n-ast (<< 4:17.03.90-0~),
+          kde-l10n-eo (<< 4:17.03.90-0~),
+          ${kde-l10n:all},
 Description: data files for kcontacts
  KContacts is an API for address book data.
  .
