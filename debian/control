@@ -35,6 +35,7 @@ Description: data files for kcontacts
 Package: libkf5contacts-dev
 Section: libdevel
 Architecture: any
+Multi-Arch: same
 Depends: libkf5contacts5 (= ${binary:Version}),
          libkf5coreaddons-dev (>= 5.35.0~),
          ${misc:Depends},
