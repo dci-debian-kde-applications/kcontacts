@@ -12,6 +12,8 @@ Build-Depends: cmake (>= 3.0~),
                libkf5i18n-dev (>= 5.39.0~),
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.8.0~),
+               xauth,
+               xvfb,
 Standards-Version: 4.1.3
 Homepage: https://projects.kde.org/projects/kde/pim/kcontacts
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kcontacts.git
